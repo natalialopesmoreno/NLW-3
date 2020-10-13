@@ -1,0 +1,81 @@
+
+#page-landing {
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    /*align-items: center;*/
+  }
+  
+  #container {
+    margin: auto;
+    width: 90%;
+  }
+  
+  .visit a {
+    width: 8rem;
+    height: 8rem;
+    background: #ffd666;
+    border: none;
+    border-radius: 3rem;
+  
+    display:flex;
+    align-items: center;/*Alinhamento de cima pra baixo*/
+    justify-content: center;/*Alinhamento da esquerda para direita*/
+  
+    margin:auto;/*Alinha centralizado*/
+    transition: background 200ms;/*Transição de cor mais lenta*/
+  }
+
+  .visit a:hover 
+  {
+    /*"hover" significa que é quando o mouse estiver em cima*/
+    background: #96feff;
+
+  }
+  
+  .location,
+  h1,
+  .vist p {
+    height: 16vh;
+  }
+  
+  /*#body
+  {
+      color: black;
+  }*/
+
+
+
+
+
+
+
+
+
+
+  
+#logo
+{
+    animation-delay: 50ms;
+}
+
+.location
+{
+    animation-delay: 100ms;
+}
+
+main h1
+{
+    animation-delay: 150ms;
+}
+
+.visit p
+{
+    animation-delay: 200ms;
+}
+
+.visit a
+{
+    animation-delay: 200ms;
+}

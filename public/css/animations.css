@@ -1,0 +1,23 @@
+/*ANIMAÇÕES*/
+
+@keyframes up
+{
+    from
+    {
+        opacity: 0;/*Vai começar desfocado e depois melhora*/
+        transform: translateY(16px);/*O item vai se movimentar no eixo Y - de baixo pra cim*/
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateY(0);
+        
+    }
+}
+
+.animate-up
+{
+    animation-name:up; 
+    animation-duration:300ms;
+    animation-fill-mode: backwards
+}
